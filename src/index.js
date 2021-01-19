@@ -4,7 +4,6 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import './index.css';
 import reducer from './reducers';
-import 
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,7 +12,7 @@ const store = createStore(reducer);
 ReactDOM.render(
   <Provider store={store}>
     <App />
-  </Provider>
+  </Provider>,
   document.getElementById('root')
 );
 
